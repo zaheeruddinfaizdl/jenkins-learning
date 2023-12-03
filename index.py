@@ -11,7 +11,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
         
         # Send the message content as a response
-        message = "Hello, this is your HTTP server from the Jenkins build!"
+        message = "Hello, this is your HTTP server from the"
         self.wfile.write(message.encode())
 
 # Set the host and port for the server
